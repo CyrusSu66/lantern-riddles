@@ -76,7 +76,7 @@ export const Lantern = ({ riddle, x, y, delay, onSolve }: Props) => {
                         }}
                     />
 
-                    <div className="absolute top-full left-1/2 -translate-x-1/2">
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 z-50 w-full flex justify-center">
                         <RiddleScroll
                             riddle={riddle}
                             isOpen={isOpen}

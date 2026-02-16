@@ -30,7 +30,7 @@ export const RiddleScroll = ({ riddle, isOpen, onSolve }: Props) => {
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: 'auto', opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
-                    className="absolute top-[80%] left-1/2 -translate-x-1/2 w-48 bg-[#fdf5e6] border-y-8 border-[#8b4513] shadow-lg z-50 overflow-hidden origin-top vector-paper"
+                    className="absolute top-0 w-48 bg-[#fdf5e6] border-y-8 border-[#8b4513] shadow-lg z-50 overflow-hidden origin-top vector-paper"
                     style={{
                         boxShadow: '0 4px 6px rgba(0,0,0,0.3)',
                         background: 'linear-gradient(to bottom, #fdf5e6 0%, #faebd7 100%)'
