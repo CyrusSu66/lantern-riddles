@@ -44,6 +44,10 @@ export const RiddleScroll = ({ riddle, isOpen, onSolve }: Props) => {
                             {riddle.question}
                         </p>
 
+                        <p className="text-sm font-serif mb-4 text-gray-600 font-bold text-center">
+                            {riddle.hint}
+                        </p>
+
                         <form onSubmit={handleSubmit} className="w-full flex flex-col gap-2">
                             <input
                                 type="text"
